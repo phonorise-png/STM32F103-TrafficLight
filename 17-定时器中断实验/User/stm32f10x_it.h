@@ -45,6 +45,13 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 
+/* Timer interrupt handlers */
+void TIM2_IRQHandler(void);
+void TIM4_IRQHandler(void);
+
+/* External interrupt handlers */
+void EXTI15_10_IRQHandler(void);
+
 #ifdef __cplusplus
 }
 #endif
