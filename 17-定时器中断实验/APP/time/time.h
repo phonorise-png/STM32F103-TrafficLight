@@ -3,6 +3,7 @@
 
 #include "system.h"
 
-void TIM4_Init(u16 per,u16 psc);
+void TIM2_Init(u16 per, u16 psc);
+void TIM4_Init(u16 per, u16 psc);
 
 #endif
