@@ -144,12 +144,36 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
-  * @brief  This function handles PPP interrupt request.
+  * @brief  This function handles TIM2 interrupt request.
   * @param  None
   * @retval None
+  * @note   TIM2 interrupt handler is implemented in time.c
   */
-/*void PPP_IRQHandler(void)
+/*void TIM2_IRQHandler(void)
 {
+  // Implemented in time.c
+}*/
+
+/**
+  * @brief  This function handles TIM4 interrupt request.
+  * @param  None
+  * @retval None
+  * @note   TIM4 interrupt handler is implemented in time.c
+  */
+/*void TIM4_IRQHandler(void)
+{
+  // Implemented in time.c
+}*/
+
+/**
+  * @brief  This function handles EXTI15_10 interrupt request.
+  * @param  None
+  * @retval None
+  * @note   EXTI15_10 interrupt handler is implemented in traffic_light.c
+  */
+/*void EXTI15_10_IRQHandler(void)
+{
+  // Implemented in traffic_light.c
 }*/
 
 /**
